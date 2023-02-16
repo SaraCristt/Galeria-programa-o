@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Ibox{
+    visibility: hidden;
+    opacity: 0;
+}
+ul{
+    width: 880px;
+    list-style: none;
+    display: flex;
+    margin: 100px auto;
+}
+.min{
+    width: 200px;
+    padding: 10px;
+}
+.Ibox:target{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, 7);
+    position: fixed;
+}
