@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      background-color:#AAA;
+      }
+  
+  #container{
+      width:480px;
+      height:auto;
+      margin:150px auto;
+      background-color:#ddd;	
+      }
+  
+  
+  .principal{
+      width:480px;
+      height:270px;
+      overflow:hidden;
+      }
+      
+  label img{
+      opacity:.3;
+      width:120px;
+      float:left;
+      cursor:pointer;
+      transition:all .4s;
+      }
+      
+  .slide{
+      display:flex;
+      width:400%;	
+      transition: all .8s ease-in-out;
+      }
+  
+  input[name="grupo"]{
+      display:none;
+      }
+  
+  
+  #foto2:checked~  .principal .slide{
+      margin-left:-100%;	
+      }
+  
+  #foto3:checked~.principal  .slide{
+      margin-left:-200%;
+      }
+      
+  #foto4:checked~.principal .slide{
+      margin-left:-300%;
+      }
+  
+  input[name="grupo"]:checked + label img{
+      opacity:.9;
+      }
