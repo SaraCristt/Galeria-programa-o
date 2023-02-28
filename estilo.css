@@ -55,3 +55,72 @@ html{
     box-shadow: 1px 1px 10px 5px gray;
 
   }
+  .rodape {
+    background-color:cornflowerblue;
+    padding: 20px;
+}
+
+.rodape-menu-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.rodape-imagem {
+    height: 40px;
+}
+
+.rodape-menu{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rodape-menu-item {
+    font-family: 'Assistant', sans-serif;
+    color:white;
+    font-weight: 400;
+}
+.cabecalho {
+    background-color:cornflowerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 400px;
+   
+    
+}
+
+.cabecalho-menu-item {
+    font-family: 'Assistant', sans-serif;
+    font-weight: -1000;
+}
+#divBusca{
+    background-color: #f4f1f1;
+    border-radius: 1vw;
+    width: 20vw;
+  }
+  
+  
+  #txtBusca{
+    background-color: transparent;
+    padding-left: 1vw;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1vw;
+    border: 15px;
+    height: 2.5vw;
+    width: 20vw;
+  }
